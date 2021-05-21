@@ -1,0 +1,6 @@
+@media only screen and (max-width: 660px){
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

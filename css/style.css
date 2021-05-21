@@ -56,6 +56,8 @@ header{
     padding: 10px 36px;
     border-radius: 50px;
     color: white;
+
+    cursor: pointer;
 }
 
 main{
@@ -93,6 +95,8 @@ main{
 
     display: flex;
     align-items: center;
+
+    cursor: pointer;
 
     background: -webkit-linear-gradient(
         180deg,
