@@ -1,3 +1,5 @@
+var modal = document.getElementById("modal-window");
+
 function toggleMobileNavigation(){
     var element = document.getElementById("mobile-navigation");
 
@@ -6,4 +8,12 @@ function toggleMobileNavigation(){
     }else{
         element.classList.add("mobile-navigation__open");
     }
+}
+
+function openModal(){
+    modal.style.display = "flex";
+}
+
+function closeModal(){
+    modal.style.display = "none";
 }
