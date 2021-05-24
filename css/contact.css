@@ -5,3 +5,65 @@
 .mobile-navigation--item__active{
     color: #FAA245;
 }
+
+.main--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main--img img{
+    width: 50%;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headline{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    flex: 2;
+}
+
+.form-fields{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    width: 100%;
+    background: #eee;
+    border: none;
+    border-radius: 3rem;
+    outline: none;
+}
+
+.form-fields:focus{
+    border: 1px solid #FAA245;
+    
+}
+
+.submit-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn{
+    padding: 0.75rem 1.5rem;
+    border: none;
+    /* background: linear-gradient(270deg, #FAA245 0%, #D8328A 37.25%, #753872 100%); */
+    background-color: #FAA245;
+    border-radius: 50px;
+    color: white;
+
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 660px){
+    .main--img{
+        display: none;
+    }
+}

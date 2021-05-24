@@ -53,7 +53,31 @@
         </header>
 
         <main>
-            <h1 class="headline">Contact Us</h1>
+            <div class="main--img">
+                <img src="../img/email.svg" alt="main image">
+            </div>
+            <div class="main--content">
+                <h3 class="headline">
+                    Get in touch
+                </h3>
+                
+                <form action="#" name="contact_form" class="contact-form">
+                    <!-- <label for="name">Name</label> -->
+                    <input name="name" type="text" required placeholder="Name" class="form-fields"/>
+                    <br>
+                    <!-- <label for="email">Email</label> -->
+                    <input name="email" type="email" required placeholder="Email" class="form-fields"/>
+                    <br>
+                    <!-- <label for="message">Message</label> -->
+                    <textarea name="message" cols="30" rows="5" placeholder="Message" required class="form-fields"></textarea>
+                    <div class="submit-btn-container">
+                        <button class="submit-btn" type="submit">
+                            Send Email
+                            <i class="fa fa-long-arrow-right"></i>
+                        </button>
+                    </div>
+                </form>	
+            </div>
         </main>
 
         <footer>
