@@ -91,6 +91,12 @@ main{
     margin-bottom: 40px;
 }
 
+.play-button-link,
+.play-button-link:focus,
+.play-button-link:active{
+    text-decoration: none;
+}
+
 .play-button{
     padding: 10px 36px;
     border: 1px solid #e0e0e0;
